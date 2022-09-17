@@ -56,12 +56,12 @@
             <tr>
               <td>Vat</td>
               <td><input v-model="vat" type="number" /> <span> %</span></td>
-              <td>{{allVat}}</td>
+              <td>{{ allVat }}</td>
             </tr>
             <tr>
               <td>Total</td>
               <td></td>
-              <td>{{total}}</td>
+              <td>{{ total }}</td>
             </tr>
           </tfoot>
         </table>
@@ -76,8 +76,8 @@ export default {
   name: "FoodTable",
   data() {
     return {
-      discount: "",
-      vat: "",
+      discount: 0,
+      vat: 0,
     };
   },
   computed: {

@@ -72,9 +72,9 @@ const state = {
   }
     ],
     orderTable: [],
-    discountPrice: '',
-    vat: '',
-    total: '',
+    discountPrice: 0,
+    vat: 0,
+    total: 0,
 }
 
 const getters = {
