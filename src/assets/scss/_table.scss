@@ -1,0 +1,42 @@
+.food-table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    th {
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .click-name {
+        cursor: pointer;
+    }
+
+    .delete-btn {
+        button {
+            background-color: orange;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+    }
+
+    .quantity {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        button {
+                background-color: orange;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+    }
+}
